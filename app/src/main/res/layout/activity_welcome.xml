@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagem completa da tela com fundo, texto e botões embutidos -->
+
+    <!-- Botão invisível para "Entrar" (posicionado com marginTop aproximado) -->
+
+    <!-- Botão invisível para "Registrar" -->
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_home" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="460dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="530dp"
+        android:background="@android:color/transparent" />
+</FrameLayout>
